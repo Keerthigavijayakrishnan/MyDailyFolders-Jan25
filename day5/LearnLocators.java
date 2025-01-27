@@ -20,8 +20,8 @@ public class LearnLocators {
 		  driver.findElement(By.className("decorativeSubmit")).click();
 		  
 		  //Click on the CRM/SFA link
-		  driver.findElement(By.linkText("CRM/SFA")).click();              //Example for linkText Locator
-		 // driver.findElement(By.partialLinkText("CRM")).click();             //Example for partialLinkText Locator
+		  driver.findElement(By.linkText("CRM/SFA")).click();                   //linkText Locator
+		 // driver.findElement(By.partialLinkText("CRM")).click();             //partialLinkText Locator
 		  
 		  //Click on the leads
 		  driver.findElement(By.linkText("Leads")).click();
