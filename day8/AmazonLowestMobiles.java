@@ -20,7 +20,7 @@ public class AmazonLowestMobiles {
 	     driver.get ("https://www.amazon.in/");
 		 //Maximize the browser window
 	     driver.manage().window().maximize();
-	     //Implicit wait- for handling captcha (In the wait time, we can manually enter the captcha)
+	     //Implicit wait- for handling captcha here
 	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	     
 	     //Find Element and Enter the Search text 
