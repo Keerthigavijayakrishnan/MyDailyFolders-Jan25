@@ -37,7 +37,7 @@ public class WindowsHandling {
 		//Close the parent tab (Train ticket booking) alone.
 	           //Switch the drive focus into parent window
 		driver.switchTo().window(allWindows.get(0));
-		       //Close the parent window alone.
+		       //Close the parent(focus) window alone.
 		driver.close();
 		
 		
